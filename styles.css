@@ -123,7 +123,7 @@ main .right .hide {
     }
     main {
         width: 800px;
-        height: 400px;
+        height: 330px;
         padding: 0;
         margin: 0;
         display: flex;
@@ -132,14 +132,30 @@ main .right .hide {
     }
     main .left {
         border-radius: 10px 0 0 10px;
-        height: 400px;
+        height: 330px;
         width: 40%;
+        background: url('./images/drawers.jpg') no-repeat left/cover;
     }
 
     main .right {
         width: 60%;
-        height: 400px;
+        height: 330px;
         border-radius: 0 10px 10px 0;
+        padding: 2rem 3rem 2rem 2rem;
+    }
+
+    main .right h3 {
+        padding: 0rem;
+    }
+
+    main .right p {
+        padding: 1rem 0 0rem;
+        /* padding-bottom: 1rem; */
+    }
+
+    main .right .info {
+        padding: 0;
+        margin: 0;
     }
 
     main .right .info .traingle {
@@ -147,8 +163,7 @@ main .right .hide {
         width: 0; 
         height: 0; 
         top: 0px;
-        right: 50px;
-        /* background: white; */
+        right: 0px;
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
         border-top: 20px solid hsl(217, 19%, 35%);
@@ -162,7 +177,7 @@ main .right .hide {
         position: absolute;
         background: hsl(217, 19%, 35%);
         padding: 1rem 2rem;
-        right: 50px;
+        right: 0px;
         top: -50px;
         transform: translateX(40%);
     }
